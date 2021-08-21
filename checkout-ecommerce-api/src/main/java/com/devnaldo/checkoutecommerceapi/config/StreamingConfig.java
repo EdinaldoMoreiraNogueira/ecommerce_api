@@ -1,7 +1,7 @@
 package com.devnaldo.checkoutecommerceapi.config;
 
-import com.hatanaka.ecommerce.checkout.streaming.CheckoutCreatedSource;
-import com.hatanaka.ecommerce.checkout.streaming.PaymentPaidSink;
+import com.devnaldo.checkoutecommerceapi.streaming.CheckoutCreatedSource;
+import com.devnaldo.checkoutecommerceapi.streaming.PaymentPaidSink;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.context.annotation.Configuration;
 
